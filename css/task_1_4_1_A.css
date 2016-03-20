@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+p{ text-indent:2em;}
+html,body{ height:100%;}
+#father1{ width:100%; height:100%; position:relative; }
+#gray1{ width:400px; height:200px; background-color:#ccc; position:absolute; left:50%; margin-left:-200px; top:50%; margin-top:-100px;}
+#yellow11{ background-color:#fc0; border-radius:0 0 50px 0; -webketborder-radius:0 0 50px 0; -moz-border-radius:0 0 50px 0; width:50px; height:50px; position:absolute; top:50%; left:50%; margin-left:-200px; margin-top:-100px;}
+#yellow12{ background-color:#fc0; border-radius:50px 0 0 0; -webketborder-radius:50px 0 0 0; -moz-border-radius:50px 0 0 0; width:50px; height:50px;  position:absolute; top:50%; left:50%; margin-left:150px; margin-top:50px;}

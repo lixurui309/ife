@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>task_1_4_1</title>
+<link  rel="stylesheet" type="text/css" href="css/task_1_4_1.css"/>
+</head>
+
+<body>
+<h1>方式一</h1>
+<p>方式一为百分比偏移+margin负值的方法</p>
+<p>设置父元素的position为relative,子元素为absolute。将子元素的top和left设为50%,并将子元素的margin-left和margin-top设置为子元素宽和高一半的负值。</p>
+<p>对元素均生效，对浏览器也都兼容。但是要知道子元素的宽和高</p>
+<p>同样的两个1/4圆也用这种方式。产生圆的方法为css3中的border-radius。</p>
+<p>这种方法的原理就是。用top，left设为50%先把div的左上角放到父元素的中间，在通过margin-left和margin-top把元素的中心移动到父元素的中间。</p>
+<div id="father1">
+	<div id="gray1">
+	</div>
+    <div id="yellow11"></div>
+    <div id="yellow12"></div>
+</div>
+
+<h1>方式二</h1>
+<p>方式二采用margin:auto的方式水平居中，vertial-align方式垂直居中</p>
+<p>对于定宽块状元素，才能使用margin:auto来实现水平居中。如果不定宽，则需采用其他的方式。</p>
+<p>通过使用vertical-alin:middle来实现垂直居中。不过快级元素编程了table-cell型。</p>
+<p>两个黄色的1/4圆此次作为灰色div的子元素，通过relative和absolute结合的方式定位。即将灰色div的position定位relative,黄色的定位absolute，然后用top，left具体定位。</p>
+<p></p>
+<div id="father2">
+	<div id="gray2">
+    	    <div id="yellow21"></div>
+    		<div id="yellow22"></div>
+	</div>
+</div>
+</body>
+</html>

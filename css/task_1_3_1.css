@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*第一种方式*/
+/*给div1设置了overflow：hidden，是为了父元素的高度自适应*/
+#div1{ background-color:#eee; border:1px solid #999; width:90%; padding:20px; margin:auto; overflow:hidden;}
+p{ text-indent:2em;}
+
+.logo_1{width:80px; margin:3px auto; }
+.logo_1 img{ width:80px; height:80px; border:1px solid #999;}
+#boxcenter{ float:left; margin-right:120px; width:100%;}
+#left{ width:200px;  position:absolute; left:5%; height:120px; line-height:120px;}
+#left img{ width:80px; height:80px; border:1px solid #999; margin:0 0 0 20px; vertical-align:middle;}
+#right{ width:120px; position:absolute; right:5%;}
+#center{ margin-right:120px; margin-left:200px;}
+#left,#right,#center{ border:1px solid #999; background-color:#FFF;}
+
+/*第二种方式*/
+#div2{ background-color:#eee; border:1px solid #999; width:90%; padding:20px; margin:auto; overflow:hidden;}
+
+.logo_2{width:80px; margin:3px auto; }
+.logo_2 img{ width:80px; height:80px; border:1px solid #999;}
+#boxcenter2{ float:left; margin-right:120px; width:100%;}
+#left2{ width:200px; float:left;}
+#left2 img{ width:80px; height:80px; border:1px solid #999; margin:0 0 0 20px; vertical-align:middle;}
+#right2{ width:120px; float:right;}
+#center2{ height:100%; width:60%; margin:auto;}
+#left2,#right2,#center2{ border:1px solid #999; background-color:#FFF;}
+
+/*第三种方式*/
+#div3{ background-color:#eee; border:1px solid #999; width:90%; padding:20px; margin:auto; overflow:hidden;}
+.left3,.right3,.center3{ border:1px solid #999; background-color:#FFF;}
+.main{ float:left; width:100%;}
+.center3{ margin:0 150px 0 220px;}
+.left3,.right3{ float:left;}
+.left3{ width:200px; margin-left:-100%; }
+.right3{ width:120px; margin-left:-130px;}
+.left3 img{ width:80px; height:80px; border:1px solid #999; margin:0 0 0 20px; vertical-align:middle;}
+
+.logo_3 img{ width:80px; height:80px; border:1px solid #999;}
